@@ -8,7 +8,7 @@ import logo from '../assets/logo.svg'
 <template>
 
     <div class="d-flex justify-space-between ">
-        <img :src="logo" class="logo" />
+        <img src="../assets/logo.png" class="logo" />
         <div class="d-flex justify-center flex-column font-weight-bold">
             <div class="text-center" style="font-size:20px">
                 <a href="tel:+73414150666"><v-icon icon="mdi-phone"></v-icon> 5-06-66</a>
@@ -21,7 +21,7 @@ import logo from '../assets/logo.svg'
     <template>
 
         <v-carousel :continuous="false" :show-arrows="false" delimiter-icon="mdi-square" height="250"
-            hide-delimiter-background cycle>
+            hide-delimiter-background cycle class="carousel">
             <v-carousel-item>
                 <v-sheet height="100%" tile>
                     <div class="d-flex flex-column fill-height justify-center align-center">
@@ -145,9 +145,16 @@ import logo from '../assets/logo.svg'
 </template>
 <style scoped>
 .logo, .product-img {
-    max-height: 90px;
+    max-height: 80px;
 }
+
 .logopos {
-    max-height: 50px;
+    max-height: 40px;
+}
+ h1{
+    font-size: clamp(1.125rem, 0.0313rem + 3.5vw, 2rem);
+}
+h2{
+    font-size: clamp(1rem, 0.0625rem + 3vw, 1.75rem);
 }
 </style>
