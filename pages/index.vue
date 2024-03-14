@@ -16,7 +16,7 @@ import logo from '../assets/logo.svg'
             <!-- <div class="text-center">пн-птн</div>
             <div> с 9.00 до 17.00</div> -->
         </div>
-        <v-spacer></v-spacer>
+        <div></div>
     </div>
     <template>
 
