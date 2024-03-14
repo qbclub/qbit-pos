@@ -4,3 +4,8 @@ body{
     font-family: "Tektur", sans-serif;
     font-optical-sizing: auto;
 }
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+  }
