@@ -84,7 +84,7 @@ import logo from '../assets/logo.svg'
         </v-carousel>
 
     </template>
-    <v-expansion-panels>
+    <v-expansion-panels multiple>
 
         <v-expansion-panel v-for="item, key in data">
             <v-expansion-panel-title class="font-weight-bold" style="font-size:20px">
