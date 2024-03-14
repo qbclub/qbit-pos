@@ -91,9 +91,9 @@ import logo from '../assets/logo.svg'
                 {{ item.groupName }}
             </v-expansion-panel-title>
             <v-expansion-panel-text>
-                <v-row class="justify-center align-center">
-                    <v-col cols="auto" v-for="product in item.items">
-                        <v-card width="344" class="pa-2">
+                <v-row class="justify-center align-stretch">
+                    <v-col cols="12" sm="6" md="4" v-for="product in item.items">
+                        <v-card width="100%" height="100%" class="pa-2">
                             <h4 class="text-center">
                                 {{ product.name }}
                             </h4>
