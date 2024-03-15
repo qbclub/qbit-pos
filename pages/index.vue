@@ -89,7 +89,7 @@ import logo from '../assets/logo.svg'
     </template>
     <v-expansion-panels multiple>
 
-        <v-expansion-panel v-for="item, key in data">
+        <v-expansion-panel eager v-for="item, key in data">
             <v-expansion-panel-title class="font-weight-bold" style="font-size:20px">
                 {{ item.groupName }}
             </v-expansion-panel-title>
