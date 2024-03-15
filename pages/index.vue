@@ -37,7 +37,8 @@ import logo from '../assets/logo.svg'
                 <v-sheet height="100%" tile>
                     <div class="d-flex fill-height justify-center align-center">
                         <div>
-                           <img src="https://pos-center.ru/img/products/m/poscenter/ri-te-iyl-02f-lan-usb-dya_28.jpg" style="height: 200px;" alt="">
+                            <img src="https://pos-center.ru/img/products/m/poscenter/ri-te-iyl-02f-lan-usb-dya_28.jpg"
+                                style="height: 200px;" alt="">
 
                         </div>
                         <div>
@@ -45,7 +46,7 @@ import logo from '../assets/logo.svg'
                             <h2 class="text-center">РИТЕЙЛ-02Ф</h2>
                             <h1 class="text-center">22000 руб.</h1>
                         </div>
-                        
+
                     </div>
                 </v-sheet>
 
@@ -54,7 +55,8 @@ import logo from '../assets/logo.svg'
                 <v-sheet height="100%" tile>
                     <div class="d-flex fill-height justify-center align-center">
                         <div>
-                           <img src="https://pos-center.ru/img/products/m/poscenter/hh-2d2-hd_28.jpg" style="height: 200px;" alt="">
+                            <img src="https://pos-center.ru/img/products/m/poscenter/hh-2d2-hd_28.jpg"
+                                style="height: 200px;" alt="">
 
                         </div>
                         <div>
@@ -70,7 +72,8 @@ import logo from '../assets/logo.svg'
                 <v-sheet height="100%" tile>
                     <div class="d-flex fill-height justify-center align-center">
                         <div>
-                           <img src="https://pos-center.ru/img/products/m/idata/i3_28.jpg" style="height: 200px;" alt="">
+                            <img src="https://pos-center.ru/img/products/m/idata/i3_28.jpg" style="height: 200px;"
+                                alt="">
 
                         </div>
                         <div>
@@ -118,43 +121,51 @@ import logo from '../assets/logo.svg'
             </v-expansion-panel-text>
         </v-expansion-panel>
     </v-expansion-panels>
-    <v-divider color="black"></v-divider>
+    <div class="text-center ma-2" style="font-size:14px; opacity: 0.7;">Понедельник - пятница c 9.00 до 17.00. </div>
+    <div class="text-center ma-2" style="font-size:14px; opacity: 0.7;">Не является офертой. </div>
+
     <v-footer class="mt-16 text-center d-flex flex-column">
-     
+
 
         <div class="pt-0 d-flex align-center justify-space-between w-100">
             <div>
                 <div> <b>Официальный партнер</b> </div>
-                <div> <a href="https://pos-center.ru/" target="_blank"><img src="../assets/logopos.png" alt="" class="logopos"></a>  </div>
-              
+                <div> <a href="https://pos-center.ru/" target="_blank"><img src="../assets/logopos.png" alt=""
+                            class="logopos"></a> </div>
+
             </div>
-            <div >
+
+
+            <div>
                 <div> <b>ИП Грачев А.В.</b> </div>
                 <div> <b>ИНН 182900345213</b> </div>
                 <div> <b>г. Глазов</b> </div>
             </div>
-           
+
         </div>
 
         <v-divider></v-divider>
 
         <div>
-           <a href="https://qbit-club.com/" target="_blank">Сделано в Кубит</a> 
+            <a href="https://qbit-club.com/" target="_blank">Сделано в Кубит</a>
         </div>
     </v-footer>
 </template>
 <style scoped>
-.logo, .product-img {
+.logo,
+.product-img {
     max-height: 80px;
 }
 
 .logopos {
     max-height: 40px;
 }
- h1{
+
+h1 {
     font-size: clamp(1.125rem, 0.0313rem + 3.5vw, 2rem);
 }
-h2{
+
+h2 {
     font-size: clamp(1rem, 0.0625rem + 3vw, 1.75rem);
 }
 </style>
