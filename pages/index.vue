@@ -22,7 +22,7 @@ import logo from '../assets/logo.svg'
 
         <v-carousel :continuous="false" :show-arrows="false" delimiter-icon="mdi-square" height="250"
             hide-delimiter-background cycle class="carousel">
-            <v-carousel-item>
+            <v-carousel-item eager>
                 <v-sheet height="100%" tile>
                     <div class="d-flex flex-column fill-height justify-center align-center">
                         <h1>
@@ -33,7 +33,7 @@ import logo from '../assets/logo.svg'
                 </v-sheet>
 
             </v-carousel-item>
-            <v-carousel-item>
+            <v-carousel-item eager>
                 <v-sheet height="100%" tile>
                     <div class="d-flex fill-height justify-center align-center">
                         <div>
@@ -50,7 +50,7 @@ import logo from '../assets/logo.svg'
                 </v-sheet>
 
             </v-carousel-item>
-            <v-carousel-item>
+            <v-carousel-item eager>
                 <v-sheet height="100%" tile>
                     <div class="d-flex fill-height justify-center align-center">
                         <div>
@@ -66,7 +66,7 @@ import logo from '../assets/logo.svg'
                 </v-sheet>
 
             </v-carousel-item>
-            <v-carousel-item>
+            <v-carousel-item eager>
                 <v-sheet height="100%" tile>
                     <div class="d-flex fill-height justify-center align-center">
                         <div>
