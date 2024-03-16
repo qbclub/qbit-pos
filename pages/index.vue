@@ -12,8 +12,7 @@ import data from '../data/store.json'
             <div class="text-center" style="font-size:20px">
                 <a href="tel:+73414150666"><v-icon icon="mdi-phone"></v-icon> 5-06-66</a>
             </div>
-            <!-- <div class="text-center">пн-птн</div>
-            <div> с 9.00 до 17.00</div> -->
+        
         </div>
         <div></div>
     </div>
