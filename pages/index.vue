@@ -1,7 +1,6 @@
 <script setup>
 
 import data from '../data/store.json'
-import logo from '../assets/logo.svg'
 
 
 </script>
@@ -18,75 +17,75 @@ import logo from '../assets/logo.svg'
         </div>
         <div></div>
     </div>
-    <template>
 
-        <v-carousel :continuous="false" :show-arrows="false" delimiter-icon="mdi-square" height="250"
-            hide-delimiter-background cycle class="carousel">
-            <v-carousel-item eager>
-                <v-sheet height="100%" tile>
-                    <div class="d-flex flex-column fill-height justify-center align-center">
-                        <h1>
-                            Скидка 5%
-                        </h1>
-                        <h1>на первый заказ</h1>
-                    </div>
-                </v-sheet>
 
-            </v-carousel-item>
-            <v-carousel-item eager>
-                <v-sheet height="100%" tile>
-                    <div class="d-flex fill-height justify-center align-center">
-                        <div>
-                            <img src="https://pos-center.ru/img/products/m/poscenter/ri-te-iyl-02f-lan-usb-dya_28.jpg"
-                                style="height: 200px;" alt="">
+    <v-carousel :continuous="false" :show-arrows="false" delimiter-icon="mdi-square" height="250"
+        hide-delimiter-background cycle class="carousel">
+        <v-carousel-item>
+            <v-sheet height="100%" tile>
+                <div class="d-flex flex-column fill-height justify-center align-center">
+                    <h1>
+                        Скидка 5%
+                    </h1>
+                    <h1>на первый заказ</h1>
+                </div>
+            </v-sheet>
 
-                        </div>
-                        <div>
-                            <h2 class="text-center">Фискальный регистратор</h2>
-                            <h2 class="text-center">РИТЕЙЛ-02Ф</h2>
-                            <h1 class="text-center">22000 руб.</h1>
-                        </div>
+        </v-carousel-item>
+        <v-carousel-item>
+            <v-sheet height="100%" tile>
+                <div class="d-flex fill-height justify-center align-center">
+                    <div>
+                        <img src="https://pos-center.ru/img/products/m/poscenter/ri-te-iyl-02f-lan-usb-dya_28.jpg"
+                            style="height: 200px;" alt="">
 
                     </div>
-                </v-sheet>
-
-            </v-carousel-item>
-            <v-carousel-item eager>
-                <v-sheet height="100%" tile>
-                    <div class="d-flex fill-height justify-center align-center">
-                        <div>
-                            <img src="https://pos-center.ru/img/products/m/poscenter/hh-2d2-hd_28.jpg"
-                                style="height: 200px;" alt="">
-
-                        </div>
-                        <div>
-                            <h2 class="text-center">Сканер штрихкода</h2>
-                            <h2 class="text-center">POScenter HH 2D2 HD</h2>
-                            <h1 class="text-center">3591 руб.</h1>
-                        </div>
+                    <div>
+                        <h2 class="text-center">Фискальный регистратор</h2>
+                        <h2 class="text-center">РИТЕЙЛ-02Ф</h2>
+                        <h1 class="text-center">22000 руб.</h1>
                     </div>
-                </v-sheet>
 
-            </v-carousel-item>
-            <v-carousel-item eager>
-                <v-sheet height="100%" tile>
-                    <div class="d-flex fill-height justify-center align-center">
-                        <div>
-                            <img src="https://pos-center.ru/img/products/m/idata/i3_28.jpg" style="height: 200px;"
-                                alt="">
+                </div>
+            </v-sheet>
 
-                        </div>
-                        <div>
-                            <h2 class="text-center">ТСД "i3"</h2>
-                            <h1 class="text-center">29030 руб.</h1>
-                        </div>
+        </v-carousel-item>
+        <v-carousel-item>
+            <v-sheet height="100%" tile>
+                <div class="d-flex fill-height justify-center align-center">
+                    <div>
+                        <img src="https://pos-center.ru/img/products/m/poscenter/hh-2d2-hd_28.jpg"
+                            style="height: 200px;" alt="">
+
                     </div>
-                </v-sheet>
+                    <div>
+                        <h2 class="text-center">Сканер штрихкода</h2>
+                        <h2 class="text-center">POScenter HH 2D2 HD</h2>
+                        <h1 class="text-center">3591 руб.</h1>
+                    </div>
+                </div>
+            </v-sheet>
 
-            </v-carousel-item>
-        </v-carousel>
+        </v-carousel-item>
+        <v-carousel-item>
+            <v-sheet height="100%" tile>
+                <div class="d-flex fill-height justify-center align-center">
+                    <div>
+                        <img src="https://pos-center.ru/img/products/m/idata/i3_28.jpg" style="height: 200px;" alt="">
 
-    </template>
+                    </div>
+                    <div>
+                        <h2 class="text-center">ТСД "i3"</h2>
+                        <h1 class="text-center">29030 руб.</h1>
+                    </div>
+                </div>
+            </v-sheet>
+
+        </v-carousel-item>
+    </v-carousel>
+
+
+
     <v-expansion-panels multiple>
 
         <v-expansion-panel eager v-for="item, key in data">
@@ -103,7 +102,7 @@ import logo from '../assets/logo.svg'
                             <div class="d-flex">
                                 <img :src="product.image" alt="" class="product-img">
                                 <div class="d-flex justify-center align-center w-100"> <b style="font-size:20px">{{
-            `${product.price} руб.` }}</b></div>
+        `${product.price} руб.` }}</b></div>
                             </div>
 
                             <div style="font-size:12px; opacity: 0.7;">
